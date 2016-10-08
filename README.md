@@ -12,7 +12,7 @@ Easily make your RecyclerView swipable, draggable, or both.
     compile 'com.ripzery:swipedrag-recycler:1.0'
  ```
 
- **2. Implement an interface on your Activity/Fragment**
+ **2. Implement an interface *OnStartDragListener* on your Activity/Fragment**
 
  ```kotlin
 class DraggableRecyclerViewFragment : Fragment(), OnStartDragListener {
@@ -57,7 +57,7 @@ inner class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), 
           }
 ```
 
-**5. Create an instance of SimpleItemTouchHelperCallback and attach to your RecyclerView**
+**5. Create an instance of *SimpleItemTouchHelperCallback* and attach to your RecyclerView**
 
 ```kotlin
 val callback: ItemTouchHelper.Callback = SimpleItemTouchHelperCallback(draggableRecyclerAdapter, taskList, true, true)
