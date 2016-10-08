@@ -8,7 +8,7 @@ Easily make your RecyclerView swipable, draggable, or both.
 
 ### How to use
 
- **1. Add this line to dependencies in build.gradle **
+ **1. Add this line to dependencies in build.gradle**
 
  ```groovy
     compile 'com.ripzery:swipedrag-recycler:1.0'
@@ -83,7 +83,7 @@ val callback: ItemTouchHelper.Callback = SimpleItemTouchHelperCallback(draggable
 
 Apache License
 ==============
-    Copyright [2016] [Ripzery]
+    Copyright 2016 Ripzery
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
