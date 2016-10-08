@@ -41,7 +41,24 @@ inner class DraggableRecyclerAdapter(var taskList: MutableList<Task>) :
 }
 ```
 
-**4. Implement an interface *ItemTouchHelperViewHolder* on your ViewHolder class**
+**4. Set *onTouchListener* on your target view which you want use to drag (Required if you want draggable feature)**
+
+```kotlin
+override fun onBindViewHolder(holder: TaskViewHolder?, position: Int) {
+            // your code
+
+            holder?.itemView.ivReorder.setOnTouchListener { view, motionEvent ->
+                if (MotionEventCompat.getActionMasked(motionEvent) == MotionEvent.ACTION_DOWN) {
+                    this@DraggableRecyclerViewFragment.onStartDrag(holder)
+                }
+                false
+            }
+        }
+```
+
+
+
+**5. Implement an interface *ItemTouchHelperViewHolder* on your ViewHolder class**
 
 ```kotlin
 inner class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), ItemTouchHelperViewHolder {
@@ -57,7 +74,7 @@ inner class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), 
           }
 ```
 
-**5. Create an instance of *SimpleItemTouchHelperCallback* and attach to your RecyclerView**
+**6. Create an instance of *SimpleItemTouchHelperCallback* and attach to your RecyclerView**
 
 ```kotlin
 val callback: ItemTouchHelper.Callback = SimpleItemTouchHelperCallback(draggableRecyclerAdapter, taskList, true, true)

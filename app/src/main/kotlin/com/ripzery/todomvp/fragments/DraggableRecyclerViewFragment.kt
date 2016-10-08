@@ -68,7 +68,6 @@ class DraggableRecyclerViewFragment : Fragment(), OnStartDragListener {
         mItemTouchHelper.startDrag(viewHolder)
     }
 
-
     /** Method zone **/
 
     private fun initInstance() {
@@ -103,7 +102,6 @@ class DraggableRecyclerViewFragment : Fragment(), OnStartDragListener {
 
         override fun onBindViewHolder(holder: TaskViewHolder?, position: Int) {
             holder!!.setModel(taskList[position])
-
 
             holder?.itemView.ivReorder.setOnTouchListener { view, motionEvent ->
                 if (MotionEventCompat.getActionMasked(motionEvent) == MotionEvent.ACTION_DOWN) {
