@@ -1,8 +1,6 @@
 # An Android Swipable Or Draggable RecyclerView Library
 
-[![device-2016-10-08-114250.png](https://s4.postimg.org/6u0ccwfdp/device_2016_10_08_114250.png)](https://postimg.org/image/4pfzbtdqx/)
-
-<div style='position:relative;padding-bottom:210%'><iframe src='https://gfycat.com/ifr/GrippingGrouchyEnglishpointer' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+<center>[![device-2016-10-08-114250.png](https://s21.postimg.org/rqstoeign/device_2016_10_08_114250.png)](https://postimg.org/image/uxnd812wj/)</center> 
 
 Easily make your RecyclerView swipable, draggable, or both.
 
