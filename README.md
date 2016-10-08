@@ -4,6 +4,8 @@
 
 Easily make your RecyclerView swipable, draggable, or both.
 
+> Note : This library and example are written in kotlin, but you can also use with java
+
 ### How to use
 
  **1. Add this line to dependencies in build.gradle**
