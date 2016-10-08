@@ -72,12 +72,12 @@ val callback: ItemTouchHelper.Callback = SimpleItemTouchHelperCallback(draggable
 
 ###Class SimpleItemTouchHelperCallback
 
-| Parameter      | Type  | Description |
-| ------------- |:-------------:|
-| mAdapter | RecyclerView.Adapter<ViewHolder> |your recyclerView's adapter
-| mList      | List<Any>  | your item list
-| swipable | Boolean  | swipable boolean [true: swipable, false: can't swipe]
-| draggable | Boolean  | draggable boolean [true: draggable, false: can't drag]
+| Parameter     | Type                             | Description   |
+| ------------- |:--------------------------------:|:-------------:|
+| mAdapter      | RecyclerView.Adapter<ViewHolder> | recyclerView's adapter
+| mList         | List<Any>                        | item list in the adapter
+| swipable      | Boolean                          | swipable boolean [true: swipable, false: can't swipe]
+| draggable     | Boolean                          | draggable boolean [true: draggable, false: can't drag]
 
 Apache License
 ==============
