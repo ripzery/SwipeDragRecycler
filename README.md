@@ -11,7 +11,7 @@ Easily make your RecyclerView swipable, draggable, or both.
  **1. Add this line to dependencies in build.gradle**
 
  ```groovy
-    compile 'com.ripzery:swipedrag-recycler:1.0'
+ compile 'com.ripzery:swipedrag-recycler:1.0'
  ```
 
  **2. Implement an interface *OnStartDragListener* on your Activity/Fragment**
