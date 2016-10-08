@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TodoMVP.iml" filepath="$PROJECT_DIR$/TodoMVP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeDragRecycler.iml" filepath="$PROJECT_DIR$/SwipeDragRecycler.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/swipedraggablerecyclerview/swipedraggablerecyclerview.iml" filepath="$PROJECT_DIR$/swipedraggablerecyclerview/swipedraggablerecyclerview.iml" />
     </modules>

@@ -86,7 +86,8 @@ class DraggableRecyclerViewFragment : Fragment(), OnStartDragListener {
 
     /* Inner class zone */
 
-    inner class DraggableRecyclerAdapter(var taskList: MutableList<Task>) : RecyclerView.Adapter<DraggableRecyclerAdapter.TaskViewHolder>(), ItemTouchHelperAdapter {
+    inner class DraggableRecyclerAdapter(var taskList: MutableList<Task>) :
+            RecyclerView.Adapter<DraggableRecyclerAdapter.TaskViewHolder>(), ItemTouchHelperAdapter {
         override fun onItemDismissed(position: Int) {
             notifyItemRemoved(position)
         }
