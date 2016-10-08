@@ -24,7 +24,7 @@ class DraggableRecyclerViewFragment : Fragment(), OnStartDragListener {
 }
  ```
 
- **3. Implement an interface *ItemTouchHelperAdapter* on your adapter **
+ **3. Implement an interface *ItemTouchHelperAdapter* on your adapter**
 
 ```kotlin
 inner class DraggableRecyclerAdapter(var taskList: MutableList<Task>) :
